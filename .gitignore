@@ -1,0 +1,17 @@
+# Dados brutos do ClickUp e leituras intermediárias (regerar com scripts/fetch_clickup.py)
+clickup_*.json
+esperado.json
+corpus/
+flows/
+flows_compact/
+
+# Segredos
+.env
+*.token
+*token*.txt
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+~$*
+*.tmp
